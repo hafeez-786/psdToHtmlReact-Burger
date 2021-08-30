@@ -1,0 +1,288 @@
+/* Header */
+.header {
+  background-color: #ffc657;
+  background-image: url('./components/Header/img/bg.jpg');
+}
+.header-row {
+  padding-top: 40px;
+}
+.header-row .left-logo-block img {
+  width: 240px;
+  height: auto;
+  max-width: 100%;
+}
+.header-row .right-contact-block img {
+color: #ffc657;
+}
+.header-row .right-contact-block .material-icons {
+  font-size: 42px;
+  height: auto;
+}
+.right-contact-block span {color: #3d2514;}
+.right-contact-block span:nth-child(2) {
+  vertical-align: top;
+  display: inline-block;
+  padding-top: 8px;
+  padding-left: 10px;
+  color: #3d2514;
+  font-weight: 600;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+/* header Menu */
+.navigation-block .navbar-nav {
+  flex-direction: row;
+}
+.header .navbar {
+  display: inline-block;
+  background: #3d2514;
+  margin-top: 10px;
+}
+.navigation-block .navbar-nav .nav-link {
+  padding-left: 46px!important;
+  color: #fff;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+/* header content */
+.content-block p {
+  margin-top: 120px;
+  border: 2px dashed #3d2514;
+  text-align: center;
+  font-size: 14px;
+  width: 400px;
+  max-width: 100%;
+  margin-left: 5px;
+}
+.content-block h1 {
+  font-size: 8em;
+  color: #3d2514;
+}
+.content-block img {
+  width: 480px;
+  height: auto;
+  max-width: 100%;
+}
+.img-block img {
+  width: 100%;
+  height: auto;
+}
+
+/* Section */
+.image-section .right-image img:nth-child(1) {
+  padding-bottom: 30px;
+}
+.image-section {padding: 4rem 0rem;}
+.choose-and-enjoy {
+  text-align: center;
+}
+
+/* Section-1 */
+.choose-and-enjoy h3 {
+  color: #3d2514;
+  background-color: #ffc045;
+  width: 218px;
+  font-size: 16px;
+  padding: 1rem;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+.choose-and-enjoy h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #3d2514;
+  margin-bottom: 1.5rem;
+}
+.choose-and-enjoy p {color: #3d2514;}
+
+/* Section-2 */
+.burger-order img {
+  width: 342px;
+  height: 320px;
+}
+.burger-order h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #3d2514;
+  text-align: center;
+}
+.burger-order p {
+  font-size: 1rem;
+  text-align: center;
+  color: #3d2514;
+}
+.burger-order .btn {
+  margin: 0 auto;
+  display: block;
+  background-color: #bf2222;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 0;
+  padding: 6px 18px;
+}
+
+/* Section-3 */
+.upcoming-events {
+  margin: 5rem 0rem;
+  padding: 20px 10px;
+  box-shadow: 7px 20px 20px 5px #dedede;
+}
+.upcoming-events p.small-text {
+  font-size: 18px;
+  padding-top: 3rem;
+  color: #3d3d3d;
+  font-weight: 700;
+  line-height: .2;
+  margin-bottom: 0;
+}
+.upcoming-events p:nth-child(3) {
+  color: #3d3d3d;
+  text-align: justify;
+}
+.upcoming-events h2 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #3d2514;
+  padding-bottom: 1rem;
+}
+
+/* Section-4 */
+.bottle-block {padding-left: 0!important;}
+.burger-plate {
+  position: relative;
+  padding-right: 0!important;
+}
+.burger-plate img {
+  position: absolute;
+  top: 35%;
+  right: 0;
+  bottom: 0;
+}
+.book-table {padding: 1.3rem 0rem;}
+.book-table h5 {
+  color: #3d2514;
+  font-size: 18px;
+  font-weight: 700;
+}
+.book-table h2 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #3d2514;
+  margin-bottom: 1.5rem;
+}
+.form-block .btn {
+  background-color: #bf2222;
+  color: #fff;
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: 700;
+  height: 50px;
+}
+.form-block .form-control {
+  height: 50px;
+  color: #3d3d3d;
+}
+.form-block .form-control::placeholder{
+  color: #3d3d3d;
+  font-weight: 600;
+}
+.form-block .form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Section-5 */
+.burger-house {
+  position: relative;
+  margin: 5rem 0rem !important;
+  background: url('./components/Sections5/burger_house.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 527px;
+}
+.burger-logo {padding: 4rem 1rem; padding-bottom: 0;}
+.burger-logo h2 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  padding-left: 2rem;
+  vertical-align: middle;
+}
+.burger-logo p {
+  padding-top: 2rem;
+  font-size: 14px;
+  color: #fff;
+}
+.burger-logo p.copyright {
+  position: absolute;
+  bottom: 10px;
+  font-size: 12px;
+}
+.burger-house .information {
+  position: absolute;
+  top: 55%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  margin:auto;
+}
+.burger-house .information p {
+  color: #fff;
+  font-size: 14px;
+}
+.burger-house .information .material-icons {
+  vertical-align: middle;
+  font-size: 30px;
+  padding-right: 15px;
+}
+.social-icons {
+  position: absolute;
+  right: 30px;
+  bottom: 25px;
+}
+.right-contact-block {text-align: right;}
+
+/***** MEDIA QUERIES ******/
+
+@media screen and (max-width: 768px) {
+  .content-block p {margin-top: 70px;}
+  .upcoming-events h2 {font-size: 28px;}
+  .upcoming-events .right-img img { padding-top: 7rem;}
+  .upcoming-events {margin-top: -65px !important;}
+  .burger-logo img {width: 60px;}
+  .burger-logo h2 {font-size: 28px;}
+  .burger-house .information {
+    position: relative;
+    top: 62%;
+    left: 50%;
+  }
+  
+}
+
+/** MOBILE MEDIA QUERIES **/
+@media screen and (max-width: 767px) {
+  .navigation-block .navbar-nav .nav-link {
+    padding-left: 20px !important;
+    font-size: 14px;
+  }
+  .right-contact-block {text-align: left!important; padding-top: 10px;}
+  .content-block p {margin-top: 50px;}
+  .content-block p {font-size: 12px;}
+  .content-block img {width: 300px;}
+  .image-section .right-image img:nth-child(1) {padding-top: 30px;}
+  .burger-order {margin-bottom: 5rem;}
+  .burger-order:last-child {margin-bottom: 0rem;}
+  .upcoming-events p.small-text, .upcoming-events {padding-top: 0rem;}
+  .upcoming-events h2, .burger-logo h2 {font-size: 28px;}
+  .burger-plate img {display: none;}
+  .burger-logo img {width: 65px;}
+  .burger-house .information {
+    position: relative;
+    top: 70%;
+    left: 52%;
+  }
+  .social-icons img {width: 100px;}
+  .social-icons {right: 10px;}
+  .burger-logo p.copyright {font-size: 11px;}
+}
